@@ -9,7 +9,7 @@ pipeline {
     }
     stage('CheckOut') {
       steps {
-        git(url: 'git@github.com:clownvary/react-testing-starter-kit.git', branch: 'matser', changelog: true)
+        git(url: 'git@github.com:clownvary/react-testing-starter-kit.git', branch: 'master', changelog: true)
       }
     }
     stage('Install') {
