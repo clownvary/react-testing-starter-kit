@@ -29,4 +29,4 @@ This starter kit uses:
 * Sinon
 * Enzyme
 * Karma
-* Webpack
+* Webpack 
